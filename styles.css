@@ -1,0 +1,37 @@
+html{
+    background-color: #D5E1EF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 22px;
+}
+p{
+    font-size: 15px;
+    letter-spacing: 0.19;
+    line-height: 2;
+    color: #7D889E;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 1rem;
+}
+.card{
+    background-color: white;
+    padding: 1rem;
+    height: 30rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.qrcode-container{
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
